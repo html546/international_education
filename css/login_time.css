@@ -1,0 +1,34 @@
+.answer .content5 {
+    padding: 30px 40px 0;
+}
+
+.answer .content5 .time_block {
+    width: 100%;
+    height: 90px;
+    background: #eef6f9;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.answer .content5 .time_block :last-child {
+    margin-bottom: 0px;
+}
+
+.answer .content5 .time_block p {
+    text-indent: 30px;
+    color: #6b6b6b;
+}
+
+.answer .content5 .time_block p:first-child {
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.answer .content5 .time_block p:nth-child(2) {
+    font-size: 16px;
+    line-height: 30px;
+}
+.page{
+    float: right;
+    margin-right: 50px;
+}

@@ -1,0 +1,130 @@
+.bg {
+    background: url(../images/test_bg.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav {
+    background: url(../images/test_nav.png) no-repeat center center;
+    width: 1580px;
+    height: 169px;
+    margin: 0 auto;
+}
+
+.nav_message {
+    width: 1200px;
+    margin: 0 auto;
+    height: 169px;
+}
+
+.user_message {
+    width: 230px;
+    height: 110px;
+    float: right;
+    position: relative;
+}
+
+.user_message img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-top: 27px;
+    float: left;
+    margin-right: 10px;
+}
+
+.user_message p {
+    float: left;
+    font-size: 30px;
+    color: #ffe3a1;
+    line-height: 110px;
+}
+
+.user_message>.user_message_bottom {
+    position: absolute;
+    background: url(../images/user_message_bottom.png) no-repeat center;
+    width: 254px;
+    height: 315px;
+    display: none;
+    top: 110px;
+    z-index: 1000;
+}
+
+.user_message:hover .user_message_bottom {
+    display: block;
+}
+
+.user_message:hover .user_message_bottom a {
+    display: block;
+    color: #ffe3a1;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    line-height: 78px;
+    height: 78px;
+}
+
+.test_content {
+    background: url(../images/test_content_bg.png) no-repeat center center;
+    background-size: cover;
+    width: 980px;
+    height: 850px;
+    position: absolute;
+    left: 50%;
+    margin-left: -535px;
+    top: 80px;
+    overflow: hidden;
+}
+
+.test_content .test_content_left {
+    width: 490px;
+    height: 750px;
+    float: left;
+    overflow: hidden;
+}
+
+.test_content .test_content_right {
+    width: 225px;
+    height: 800px;
+    float: left;
+    overflow: hidden;
+}
+
+.test_content a {
+    display: block;
+    background: url(../images/test_btn.png) no-repeat center center;
+    background-size: contain;
+    width: 225px;
+    height: 115px;
+    font-size: 30px;
+    color: #ffe3a1;
+    text-align: center;
+    line-height: 115px;
+    float: left;
+}
+
+.test_content_left>a:first-child {
+    margin-left: 190px;
+    margin-top: 225px;
+}
+
+.test_content_left>a:nth-child(2) {
+    margin-top: 60px;
+    margin-left: 190px;
+}
+
+.test_content_left>a:nth-child(3) {
+    margin-top: 60px;
+    margin-left: 190px;
+}
+
+.test_content_right>a:first-child {
+    margin-left: 0px;
+    margin-top: 400px;
+}
+
+.test_content_right a:nth-child(2) {
+    margin-left: 0px;
+    margin-top: 60px;
+}

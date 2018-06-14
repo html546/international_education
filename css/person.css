@@ -1,0 +1,33 @@
+.answer .content2.content3{
+    padding-top: 45px;
+}
+.person_top {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person_top p {
+    color: #999;
+    font-size: 14px;
+    line-height: 40px;
+}
+.person_top h3 {
+    color: #333;
+    font-size: 30px;
+    font-weight: normal;
+}
+.person_middle p{
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
+    color: #999;
+    border-bottom: 1px solid #dddddd;
+    line-height: 40px;
+}
+.person_bottom p{
+    color: #333;
+    font-size: 20px;
+}

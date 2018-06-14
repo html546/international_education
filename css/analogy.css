@@ -1,0 +1,212 @@
+.message_left {
+    float: left;
+    margin-left: 90px;
+}
+
+.message_right {
+    float: right;
+}
+
+.message_left p, .message_right p {
+    font-size: 30px;
+    color: #ffe3a1;
+    line-height: 110px;
+}
+
+.answer {
+    width: 1112px;
+    height: 849px;
+    background: url(../images/answer_area.png) no-repeat center center;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    padding: 1px;
+}
+
+.answer .title {
+    margin: 55px auto 50px;
+    background: url(../images/title_bg.png) no-repeat center center;
+    width: 350px;
+    height: 56px;
+    color: #999999;
+    font-size: 30px;
+    line-height: 56px;
+    text-align: center;
+}
+
+.answer .content {
+    background: url(../images/answer_content.png) no-repeat center center;
+    background-size: cover;
+    width: 1001px;
+    height: 506px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.answer .content2 {
+    background: url(../images/answer_content2.png) no-repeat center center;
+    background-size: cover;
+    width: 1001px;
+    height: 649px;
+    margin: 50px auto;
+    text-align: left;
+    padding: 75px 55px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 20px;
+    color: #6b6b6b;
+    line-height: 60px;
+}
+
+.answer .content2 div {
+    overflow: hidden;
+}
+
+.answer .content2 div.sounds {
+    margin: 70px 0;
+    background: url(../images/sounds.png) no-repeat center center;
+    background-size: cover;
+    width: 192px;
+    height: 42px;
+    position: relative;
+}
+
+.answer .content2 div.sounds audio {
+    width: 192px;
+    height: 42px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.answer .content2 .analyze {
+    line-height: 40px;
+}
+
+.answer .content2 div.video video {
+    width: 541px;
+    height: 306px;
+    margin: 50px 0;
+}
+
+.answer .content2 div .radio_group {
+    position: relative;
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-right: 18px;
+}
+
+.answer .content2 div label {
+    float: left;
+    line-height: 24px;
+    margin-right: 35px;
+}
+
+.answer .content2 div .radio_group .truly_radio {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 24px;
+    height: 24px;
+    z-index: 100;
+}
+
+.answer .content2 div .radio_group .false_radio {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../images/radio.png) no-repeat center center;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+
+.answer .content2 div .radio_group .truly_radio:checked+.false_radio {
+    background: url(../images/radio_check.png) no-repeat center center;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+
+.answer .content2 .result {
+    width: 260px;
+    height: 75px;
+    margin: 115px auto 70px;
+}
+
+.answer .content2 .result.result1 {
+    background: url(../images/wrong.png) no-repeat center center;
+    background-size: cover;
+}
+
+.answer .content2 .result.result2 {
+    background: url(../images/correct.png) no-repeat center center;
+    background-size: cover;
+}
+
+.answer .answer_progress {
+    background: url(../images/answer_progress.png) no-repeat center center;
+    width: 188px;
+    height: 53px;
+    top: 25px;
+    left: -50px;
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    line-height: 53px;
+    text-align: center;
+}
+
+.answer .content h5, .answer .content p {
+    color: #999999;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.answer .content h5:first-of-type {
+    margin: 50px auto;
+}
+
+.answer .content h5:nth-of-type(2) {
+    margin-top: 50px;
+}
+
+.answer .content p {
+    padding: 0 70px;
+}
+
+.start_btn, .submit_btn, .prev_test, .next_test {
+    display: inline-block;
+    width: 135px;
+    height: 48px;
+    margin: 68px auto 0;
+    background: url(../images/start_btn.png) no-repeat center center;
+    background-size: cover;
+    border: none;
+    position: relative;
+    left: 50%;
+    margin-left: -67px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 48px;
+    cursor: pointer;
+}
+
+.submit_btn {
+    margin-top: 0px;
+}
+
+.prev_test {
+    left: 323px;
+    margin: 0;
+}
+
+.next_test {
+    left: 545px;
+    margin: 0;
+}
