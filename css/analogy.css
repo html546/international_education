@@ -175,7 +175,7 @@
     margin-top: 50px;
 }
 
-.answer .content p {
+.answer .content>p {
     padding: 0 70px;
 }
 

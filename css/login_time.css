@@ -10,7 +10,7 @@
     margin-bottom: 10px;
 }
 
-.answer .content5 .time_block :last-child {
+.answer .content5 .time_block:last-child {
     margin-bottom: 0px;
 }
 
