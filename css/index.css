@@ -27,7 +27,7 @@
     display: box;
     display: flex;
     display: -webkit-flex;
-    display: -moz-box;
+    display: -moz-flex;
     display: -ms-flexbox;
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
@@ -108,7 +108,7 @@
     display: box;
     display: flex;
     display: -webkit-flex;
-    display: -moz-box;
+    display: -moz-flex;
     display: -ms-flexbox;
     -webkit-box-orient: horizontal;
     -webkit-flex-direction: row;
@@ -130,7 +130,7 @@
     display: box;
     display: flex;
     display: -webkit-flex;
-    display: -moz-box;
+    display: -moz-flex;
     display: -ms-flexbox;
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
